@@ -4,6 +4,13 @@
 
 body {
     background-color: #F2D7EE;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* her begynder style til index.html*/
+
+.mig{
+    display: none;
 }
 
 h1 {
@@ -12,6 +19,7 @@ h1 {
     color: #A5668B;
     font-weight: lighter;
     font-size: 30px;
+    text-align: center;
 }
 
 p {
@@ -22,6 +30,10 @@ p {
 
 hr {
     width: 200px;
+}
+
+.kate .streg {
+    width: 100px;
 }
 
 .navi {
@@ -73,8 +85,9 @@ hr {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 5vw;
+    font-size: 6vw;
 }
+
 
 .container {
     position: relative;
@@ -97,6 +110,8 @@ hr {
     padding: 10px;
     flex: 50%;
     border-radius: 20px;
+    text-align: center;
+    display: block;
 }
 
 .albe {
@@ -106,8 +121,308 @@ hr {
 .multi {
     font-size: 3vw;
     margin-top: 2rem;
-    color: black;
+    color: #A5668B;
 }
+
+.btn {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    max-width: 150px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #A5668B;
+}
+
+.pro {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    padding-top: 20px;
+}
+
+.kate {
+    background-image: url(image/Skærmbillede2021-12-08kl.09.12.27.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #D3BCC0;
+}
+
+.komp {
+    display: flex;
+    justify-content: center;
+}
+
+.Xd {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.takt {
+    background-color: #D3BCC0;
+    display: flex;
+}
+
+input {
+    resize: vertical;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    width: 81%;
+    height: 32px;
+    border-radius: 10px
+}
+
+textarea {
+    height: 200px;
+    width: 81%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: inline-block;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.first {
+    justify-content: center;
+    margin-bottom: -20px;
+}
+
+.first input {
+    width: 40%;
+}
+
+footer {
+    display: flex;
+    max-width: 100%;
+    background-color: white;
+    margin-bottom: -20px;
+}
+
+.icons {
+    color: #A5668B;
+}
+
+
+/*Style til CV side*/
+
+.cv {
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 25%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+body.color {
+    background-image: url(image/photoshopbilledeee.png);
+    background-color: #D3BCC0;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: #A5668B;
+    font-weight: lighter;
+}
+
+.cv-btn {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    max-width: 500px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.cv-btn2 {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    margin-top: -100px;
+    max-width: 500px;
+    padding-top: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    color:#69306D;
+}
+
+.cv-btn a {
+    width: 40%;
+    justify-content: center;
+    max-width: 200px;
+    
+}
+
+.cv-btn2 a {
+    width: 40%;
+    justify-content: space-evenly;
+    max-width: 200px;
+}
+
+
+.kompe-cv {
+    background-color: white;
+    border-radius: 10px;
+    max-width: 300px;
+    margin-top: 30px;
+}
+
+.footcv{
+    margin-top: 40px;
+}
+
+.footer-pc{
+    justify-content: space-evenly;
+    margin-top: 210px;
+}
+
+/*Style til nemskat.html*/
+
+.NS{
+
+    border:2px solid black;
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    max-width: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-top: 70px;
+}
+
+.skat{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.skat img{
+    margin-top: 10px;
+}
+
+.farv{
+    background-color: white;
+
+}
+
+.AL{
+    margin-top: 40px;
+}
+
+.nemskat-btn a{
+    color: #D3BCC0;
+}
+
+.pc{
+    display: none;
+}
+
+.mobile{
+    display: flex;
+}
+
+.sc{
+    height: 400px;
+}
+
+/*style til rumrejsen*/
+
+.rejse{
+    background-color: white;
+}
+
+.podi img{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+section.nemskat-btn.TH{
+    margin-top: 100px;
+}
+
+
+
+/*style til karma*/
+
+.kar{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: -40px;
+}
+
+.bil{
+   display: flex;
+   justify-content: center;
+    width: 100%;
+    margin-left: -40px;
+}
+
+
+
+/*style til privat*/
+
+
+iframe{
+    width: 70%;
+    height: 65%;
+}
+
+.æt {
+    width: auto;
+    height: auto;
+    margin-left: 40px;
+    margin-right: 80px;
+    margin-top: 30px;
+    max-width: 250px;
+    min-width: 250px;
+    min-height: 250px;
+    font-size: 18px;
+    margin: 10px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    max-width: 650px;
+    padding: 10px;
+    flex: 50%;
+    
+    
+}
+
+.mp {
+    width: 100%;
+    min-height: 250px
+}
+
+
 
 @media screen and (max-width: 767px) {
     .navi-ul {
@@ -121,4 +436,318 @@ hr {
     .burger {
         display: block;
     }
+}
+
+@media screen and (min-width: 767px) {
+    
+    /* style til index side*/
+
+    .container{
+        flex-direction: row;
+    
+    }
+
+    .albe{
+        width: 45%;
+    }
+
+    .mig{
+    display: inline-block;
+        width: 45%;
+    }
+
+    .flex-item h1{
+        font-size: 70px;
+    }
+
+    .flex-container{
+        
+        flex-direction: row;
+    }
+
+    .flex-item p{
+        font-size: 30px;
+    }
+
+    .kate{
+        background-image: url(image/Skærmbillede2021-12-07kl.14.06.26.png);
+    }
+
+    .btn{
+        font-size: 30px;
+        max-width: 300px;
+        margin-top: 40px;
+        margin-bottom: 80px;
+    }
+    .kompe{
+        max-width: 500px;
+    }
+
+    .Xd{
+       width: 80px; 
+       height: 80px;
+    }
+    .kompe h1{
+        font-size: 70px;
+    }
+
+    .pro h1{
+        font-size: 70px;
+    }
+
+    .mellem{
+        display: block;
+    }
+
+    .box{
+        background-color: white;
+        border-radius: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    form {
+        width: 50%;
+    }
+
+    .takt{
+        max-width: 100%;
+    }
+
+    input{
+        height: 70px;
+    }
+
+    #submit{
+        width: 30%;
+    }
+
+    .kon{
+        font-size: 70px;
+    }
+
+
+    /* CV side */
+    .cv h1{
+        font-size: 60px;
+    
+    }
+
+    .cv{
+        margin-top: 50px;
+    }
+    .ud{
+        font-size: 50px;
+        margin-top: 30px;
+    }
+
+    .cv-pc{
+        flex-direction: row;
+        column-count: 2;
+    }
+
+    .cv-btn .btn{
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-left: 10px;
+        margin-right: 10px;  
+        min-width: 175px;
+    }
+
+    .cv-btn2 .btn{
+        padding-left: 60px;
+        padding-right: 60px;
+        margin-left: 10px;
+        margin-right: 10px;
+        min-width: 135px;
+        max-width: 150x;
+      
+    }
+
+    .kompe-cv{
+        max-width: 800px;
+        width: 50%;
+    }
+
+    .kompe-cv.flex-item{
+        width: 500px;
+    }
+
+    .kompe-cv .flex-item p{
+        font-size: 30px;
+    }
+
+    footer{
+        max-width: 100%;
+        font-size: 30px;
+    }
+
+    /* Nemskat side*/
+
+    .grøn{
+        flex-direction: column;
+        column-count: 3;
+        margin-top: 40px;
+    }
+
+    .grøn img{
+        margin-left: 0;
+    }
+    .sc{
+     height: 80vh;
+     margin-left: -300px;
+    }
+
+    .scan-pc{
+        padding-top: 70px;
+    }
+
+    .skat-pc{
+        width: 80%;
+        padding-left: 10%;
+        padding-top: 140px;
+        margin-bottom: -30px;
+    }
+
+    .pc{
+        display: flex;
+    }
+
+    .sc-div{
+        display: block;
+        justify-content: center;
+        margin-left: 10%;
+        
+    }
+
+    .mobile{
+        display: none;
+
+    }
+
+    .nm{
+        margin-top: 70px;
+    }
+
+    .NS{
+        font-size: 20px;
+    }
+
+
+    /* rumrejsen side*/
+
+    .rum{
+        flex-direction: row;
+        column-count: 2;
+    }
+
+    .TH{
+         max-width: 600px;
+         color: #D3BCC0;
+    }
+
+    .RU{
+        padding-top: 100px;
+    }
+
+    .foot{
+        margin-top: 35px;
+    }
+
+    .um{
+        padding-top: 65px;
+    }
+
+    .podi a{
+        width: 10%;
+    }
+
+   
+    /* Karma side*/
+
+    .ma{
+        flex-direction: row;
+        column-count: 2;
+
+    }
+
+    .kar img{
+        width: 100%;
+        margin-bottom: 200px;
+        margin-left: 60px;
+    }
+
+    .kar{
+        flex-direction: column;
+    }
+
+    
+    .AL{
+        margin-top: 40px;
+        font-size: 20px;
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+.LI{
+    margin-left: 60px;
+    margin-top: 40px;
+        margin-bottom: 20px;
+        width: 84%;
+        color: #D3BCC0;
+    }
+    .ka{
+        margin-top: 130px;
+    }
+
+  
+
+
+    /*style til video*/
+
+iframe{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    width: 90vw;
+    height: 90vh;
+    margin-left: -100px;
+    
+}
+
+.moji{
+    margin-top: 50px;
+}
+
+.footmojito{
+    display: none;
+}
+
+.how{
+    width: 80%;
+    height: 0%;
+    flex-direction: column;
+}
+
+.it{
+    height: 400px;
+}
+
+
+/*style til privat*/
+
+.mp{
+    width: 100%;
+    min-height: 200px;
+    max-height: 500px;
+}
+
+.co{
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.pri{
+    margin-top: 310px;
+}
+
 }
